@@ -9,6 +9,8 @@ def anagram():
         if a== Counter(b):
             print("Anagram found ")
             print(f'the words are {i}' ) 
+        else:
+            print('no anagram found')
 
 anagram()       
         
